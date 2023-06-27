@@ -1,0 +1,17 @@
+.tarjetitas {
+  display: flex;
+  gap: 2rem;
+}
+.tarjetitas .tarjetita {
+  flex-basis: 100%;
+  background-color: #1b399c;
+  color: #ddd;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.tarjetitas .tarjetita img {
+  width: 100%;
+}
+.tarjetitas .tarjetita__body {
+  padding: 1rem;
+}/*# sourceMappingURL=tarjetitas.css.map */

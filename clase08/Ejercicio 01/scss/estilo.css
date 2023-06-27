@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-inline: 3rem;
+}
+
+header {
+  padding-block: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto Slab", sans-serif;
+}
+
+h1 {
+  color: #1b399c;
+  text-shadow: -2px -2px #1b399c;
+}
+
+li, p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.tarjetitas {
+  display: flex;
+  gap: 2rem;
+}
+.tarjetitas .tarjetita {
+  flex-basis: 100%;
+  background-color: #1b399c;
+  color: #ddd;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+  .tarjetitas .tarjetita {
+    background-color: #0fa823;
+  }
+}
+.tarjetitas .tarjetita img {
+  width: 100%;
+}
+.tarjetitas .tarjetita__body {
+  padding: 1rem;
+}/*# sourceMappingURL=estilo.css.map */

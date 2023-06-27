@@ -1,0 +1,32 @@
+.tarjetitas {
+    display: flex;
+    gap: 2rem;
+    @include mobile{
+      flex-direction: column;
+    }
+    .tarjetita {
+        flex-basis: 100%;
+        background-color: #1b399c;
+        color: #ddd;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        @include tablet{
+          background-color: #0fa823;
+        }
+        @include mobile{
+          background-color: #a80f0f;
+        }
+        img {
+            width: 100%;
+            @include tablet{
+              display: none;
+            }
+            @include mobile{
+              display: block;
+            }
+          }
+      }
+      .tarjetita__body {
+        padding: 1rem;
+      }
+  }

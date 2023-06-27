@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 160px;
+  background-color: rgba(226, 19, 19, 0.603);
+  color: #000;
+  text-shadow: 3px 3px 10px #fff;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+}
+header hr {
+  margin-top: 20px;
+}
+header p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: #000;
+  text-shadow: 3px 3px 10px #fff;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 16px 0;
+}
+
+section {
+  padding-top: 180px;
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+}
+section h2 {
+  color: rgba(226, 19, 19, 0.603);
+}
+section article {
+  margin: 16px 0;
+}
+section article p {
+  line-height: 150%;
+  color: rgb(95, 95, 95);
+}
+
+footer {
+  width: 100%;
+  background-color: rgba(226, 19, 19, 0.603);
+  color: #000;
+  text-align: center;
+}
+footer article {
+  padding: 10px;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+}
+
+.boton, .boton-cancelar, .boton-aceptar {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid white;
+  margin: 20px 10px;
+}
+
+.boton-aceptar {
+  background-color: green;
+  color: yellow;
+}
+.boton-aceptar:hover {
+  background-color: rgb(39, 138, 39);
+}
+
+.boton-cancelar {
+  background-color: red;
+  color: orangered;
+}/*# sourceMappingURL=estilo.css.map */

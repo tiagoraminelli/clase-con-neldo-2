@@ -1,0 +1,24 @@
+.boton{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: 20px 10px;
+}
+.boton-aceptar{
+    @extend .boton;
+    background-color: green;
+    color: yellow;
+    &:hover{
+        background-color: rgb(39, 138, 39);
+    }
+
+}
+.boton-cancelar{
+    @extend .boton;
+    background-color: red;
+    color: orangered;
+}
